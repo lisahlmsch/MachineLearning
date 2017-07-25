@@ -58,18 +58,15 @@ dataset = read.csv('Social_Network_Ads.csv')
 dataset = dataset[3:5]
 ```
 
--- Importing dataset -- 
+-- Encoding the target feature as factor -- 
 
 ```r
-# Encoding the target feature as factor
 dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 ```
 
--- Importing dataset -- 
+-- Splitting the dataset into the Training set and Test set -- 
 
 ```r
-# Splitting the dataset into the Training set and Test set
-# install.packages('caTools')
 library(caTools)
 set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio = 0.75)
