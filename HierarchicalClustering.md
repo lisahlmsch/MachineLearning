@@ -25,6 +25,9 @@ We can define a certain treshhold above which the dendogram does not continue to
 
 Recommendation: Choose a threshold that crosses the longest vertical line.
 
+* Pro: The optimal number of clusters can be obtained by the model itself, practical visualisation with the dendrogram
+* Not appropriate for large datasets
+
 ### Business Problem (Udemy)
 Segement clients in different groups based on information on their annual income and spending score
 
@@ -75,3 +78,11 @@ clusplot(X,
 ```
 
 ![](HierarchicalClustering_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+
+Result:
+
+* Cluster 1: High income, high spending score  ("Target clients")
+* Cluster 2: High income, low spending score ("Careful clients")
+* Cluster 3: Average income, average spending score ("Standard clients")
+* Cluster 4: Low income, low spending score ("Sensible clients"")
+* Cluster 5: Low income, high spending score ("Careless clients")
