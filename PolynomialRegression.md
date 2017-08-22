@@ -82,7 +82,8 @@ summary(lin_reg)
 -- Fitting Polynomial Regression to the dataset --
 
 ```r
-# add polynomial features (additional independent variables that are polynomial terms of this IV --> level to the power of 2,3,4) 
+# add polynomial features 
+# (additional independent variables that are polynomial terms of this IV --> level to the power of 2,3,4) 
 dataset$Level2 = dataset$Level^2
 dataset$Level3 = dataset$Level^3
 dataset$Level4 = dataset$Level^4
