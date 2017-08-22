@@ -1,9 +1,10 @@
-# MultipleLinearRegression
+# Multiple Linear Regression
 
 
 
 ### Regression - Theory
-Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If your independent variable is time, then you are forecasting future values, otherwise your model is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
+Regression analysis estimates the relationship among variables - between a dependent variable and one or more independent variables.
+Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If the independent variable is time, then the model is forecasting future values, otherwise it is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
 
 Machine Learning Regression models:
 
@@ -18,7 +19,11 @@ Machine Learning Regression models:
 Multiple linear regression attempts to model the relationship between two or more explanatory variables and a response variable by fitting a linear equation to observed data. Every value of the independent variable x is associated with a value of the dependent variable y.
 
 * Pros: Works on any size of dataset, gives informations about relevance of features
-* Cons: The Linear Regression Assumptions (http://www.statisticssolutions.com/assumptions-of-linear-regression/)
+* Cons: The Linear Regression Assumptions
+  * A Linear Relationship between the outcome variable and the independent variables.  A plot of the standardized residuals verses the predicted Y' values show whether there is a linear or curvilinear relationship.
+  * Multivariate Normality--Multiple regression assumes that the variables are normally distributed.
+  * No Multicollinearity--This assumption assumes that the independent variables are not highly correlated with each other.  This assumption is tested by the Variance Inflation Factor (VIF) statistic.
+  * Homoscedasticity--This assumption requires that the variance of error terms are similar across the independent variables.   As with the linear relationship assumption, Intellectus Statistics plot the standardized residuals verses the predicted Y' values can show whether points are equally distributed across all values of the independent variables or not.
 
 ### Business Problem (Udemy)
 * Investors would like to know in which companies they should invest in.
