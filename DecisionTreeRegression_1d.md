@@ -4,7 +4,7 @@
 
 
 ### Regression - Theory
-Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If your independent variable is time, then you are forecasting future values, otherwise your model is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
+Regression analysis estimates the relationship among variables - between a dependent variable and one or more independent variables. Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. If the independent variable is time, then the model is forecasting future values, otherwise it is predicting present but unknown values. Regression technique vary from Linear Regression to SVR and Random Forests Regression.
 
 Machine Learning Regression models:
 
