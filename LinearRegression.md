@@ -7,12 +7,12 @@ Regression models (both linear and non-linear) are used for predicting a real va
 
 Machine Learning Regression models:
 
-Simple Linear Regression
-Multiple Linear Regression
-Polynomial Regression
-Support Vector for Regression (SVR)
-Decision Tree Classification
-Random Forest Classification
+* Simple Linear Regression
+* Multiple Linear Regression
+* Polynomial Regression
+* Support Vector for Regression (SVR)
+* Decision Tree Classification
+* Random Forest Classification
 
 ### Linear Regression - Theory
 
