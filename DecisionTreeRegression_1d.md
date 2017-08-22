@@ -82,8 +82,10 @@ ggplot() +
 ```
 
 ![](DecisionTreeRegression_1d_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
-# plots straight horizontal line, which is related to the number of splits
-# the horizontal line is based on the average of ALL data, it is missing any splits
+
+plots straight horizontal line, which is related to the number of splits
+
+the horizontal line is based on the average of ALL data, it is missing any splits
 
 
 Fitting the Decision Tree Regression to the dataset (more robust version (vs#2))
