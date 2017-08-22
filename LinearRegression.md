@@ -25,6 +25,7 @@ Y' = bX + A
 * b Coefficient. Describes how a unit change in X affects Y.
 * A Constant
 
+
 * Pros: Works on any size of dataset, gives informations about relevance of features
 * Cons: The Linear Regression Assumptions
   * A Linear Relationship between the outcome variable and the independent variables.  A plot of the standardized residuals verses the predicted Y' values show whether there is a linear or curvilinear relationship.
